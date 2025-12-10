@@ -1023,6 +1023,13 @@
     }
     
     /* Responsive Design */
+
+     @media (max-width: 768px) {
+      /* push down hero content so profile pic isn't hidden behind navbar/menu */
+      #hero .hero-content {
+        margin-top: 90px;   /* adjust this value to match your navbar + menu height */
+      }
+    }
     @media (max-width: 1200px) {
       .hero-title {
         font-size: 3rem;
@@ -1658,3 +1665,4 @@
   </script>
 </body>
 </html>
+
